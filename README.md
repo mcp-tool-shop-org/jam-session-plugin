@@ -7,10 +7,10 @@ This plugin wraps the [PianoAI](https://github.com/mcp-tool-shop-org/ai_jam_sess
 ## Install
 
 ```bash
-claude plugin add pianoai
+claude plugin add ai-jam-session
 ```
 
-The MCP server (`@mcptoolshop/pianoai`) is fetched automatically via npx. Requires Node.js 18+.
+The MCP server (`@mcptoolshop/ai_jam_session`) is fetched automatically via npx. Requires Node.js 18+.
 
 ## What You Get
 
@@ -18,10 +18,10 @@ The MCP server (`@mcptoolshop/pianoai`) is fetched automatically via npx. Requir
 
 | Command | Description |
 |---------|-------------|
-| `/pianoai:teach <song>` | Start a structured teaching session |
-| `/pianoai:practice <song> [level]` | Get a personalized practice plan |
-| `/pianoai:explore [query]` | Browse the 100-song library by genre, difficulty, or keyword |
-| `/pianoai:jam <song or genre>` | Start a jam session — Claude creates its own interpretation |
+| `/ai-jam-session:teach <song>` | Start a structured teaching session |
+| `/ai-jam-session:practice <song> [level]` | Get a personalized practice plan |
+| `/ai-jam-session:explore [query]` | Browse the 100-song library by genre, difficulty, or keyword |
+| `/ai-jam-session:jam <song or genre>` | Start a jam session — Claude creates its own interpretation |
 
 ### Agents
 
@@ -39,11 +39,11 @@ Browse, play, teach, jam, and manage songs. The plugin's skills orchestrate thes
 Use slash commands:
 
 ```
-/pianoai:explore jazz
-/pianoai:teach moonlight-sonata-mvt1
-/pianoai:practice let-it-be beginner
-/pianoai:jam autumn-leaves as blues
-/pianoai:jam jazz
+/ai-jam-session:explore jazz
+/ai-jam-session:teach moonlight-sonata-mvt1
+/ai-jam-session:practice let-it-be beginner
+/ai-jam-session:jam autumn-leaves as blues
+/ai-jam-session:jam jazz
 ```
 
 Or just talk naturally — the agents activate based on context:
@@ -65,7 +65,7 @@ Let's jam on some blues.
 
 ## Links
 
-- MCP server: [@mcptoolshop/pianoai](https://www.npmjs.com/package/@mcptoolshop/pianoai)
+- MCP server: [@mcptoolshop/ai_jam_session](https://www.npmjs.com/package/@mcptoolshop/ai_jam_session)
 - Source: [mcp-tool-shop-org/ai_jam_session](https://github.com/mcp-tool-shop-org/ai_jam_session)
 
 ## License
