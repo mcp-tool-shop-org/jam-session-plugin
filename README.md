@@ -1,8 +1,8 @@
-# PianoAI — Claude Code Plugin
+# AI Jam Session — Claude Code Plugin
 
 AI piano player with a 100-song library, structured teaching, and jam sessions. Plays through your speakers — no external software required.
 
-This plugin wraps the [PianoAI](https://github.com/mcp-tool-shop-org/ai_jam_session) MCP server, adding slash commands, agent personalities, and structured workflows for learning and jamming.
+This plugin wraps the [AI Jam Session](https://github.com/mcp-tool-shop-org/ai_jam_session) MCP server, adding slash commands, agent personalities, and structured workflows for learning and jamming.
 
 ## Install
 
