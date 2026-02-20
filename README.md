@@ -10,7 +10,7 @@ This plugin wraps the [PianoAI](https://github.com/mcp-tool-shop-org/ai_jam_sess
 claude plugin add ai-jam-session
 ```
 
-The MCP server (`@mcptoolshop/ai_jam_session`) is fetched automatically via npx. Requires Node.js 18+.
+The MCP server (`@mcptoolshop/ai-jam-session`) is fetched automatically via npx. Requires Node.js 18+.
 
 ## What You Get
 
@@ -65,7 +65,7 @@ Let's jam on some blues.
 
 ## Links
 
-- MCP server: [@mcptoolshop/ai_jam_session](https://www.npmjs.com/package/@mcptoolshop/ai_jam_session)
+- MCP server: [@mcptoolshop/ai-jam-session](https://www.npmjs.com/package/@mcptoolshop/ai-jam-session)
 - Source: [mcp-tool-shop-org/ai_jam_session](https://github.com/mcp-tool-shop-org/ai_jam_session)
 
 ## License
