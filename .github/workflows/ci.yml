@@ -32,16 +32,36 @@ jobs:
       - name: Validate JSON files
         run: |
           echo "Validating JSON files..."
-          find . -name "*.json" -not -path "./.git/*" | while read f; do
-            python3 -m json.tool "$f" > /dev/null && echo "OK: $f" || echo "FAIL: $f"
-          done
+          failed=0
+          while IFS= read -r f; do
+            if python3 -m json.tool "$f" > /dev/null 2>&1; then
+              echo "OK: $f"
+            else
+              echo "FAIL: $f"
+              failed=1
+            fi
+          done < <(find . -name "*.json" -not -path "./.git/*")
+          if [ "$failed" -eq 1 ]; then
+            echo "::error::One or more JSON files are invalid"
+            exit 1
+          fi
 
       - name: Check plugin structure
         run: |
           echo "Checking required files..."
-          for f in README.md LICENSE; do
-            if [ -f "$f" ]; then echo "OK: $f"; else echo "MISSING: $f"; fi
+          missing=0
+          for f in README.md LICENSE .claude-plugin/plugin.json .mcp.json; do
+            if [ -f "$f" ]; then
+              echo "OK: $f"
+            else
+              echo "MISSING: $f"
+              missing=1
+            fi
           done
           echo ""
           echo "Skills: $(find skills -name '*.md' 2>/dev/null | wc -l)"
           echo "Agents: $(find agents -name '*.md' 2>/dev/null | wc -l)"
+          if [ "$missing" -eq 1 ]; then
+            echo "::error::Required plugin files are missing"
+            exit 1
+          fi
