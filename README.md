@@ -1,4 +1,6 @@
-# AI Jam Session — Claude Code Plugin
+<p align="center">
+  <img src="assets/logo.png" alt="Jam Session Plugin" width="280" />
+</p>
 
 AI piano player with a 100-song library, structured teaching, and jam sessions. Plays through your speakers — no external software required.
 
