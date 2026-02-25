@@ -10,8 +10,8 @@ export const config: SiteConfig = {
 
   hero: {
     badge: 'Claude Code Plugin',
-    headline: 'Piano AI,',
-    headlineAccent: 'through your speakers.',
+    headline: 'AI Jam Session,',
+    headlineAccent: 'inside Claude Code.',
     description: 'A Claude Code plugin with a 100-song library, structured lessons, and AI jam sessions — plays through your system audio, no external software required.',
     primaryCta: { href: '#install', label: 'Install' },
     secondaryCta: { href: '#skills', label: 'See the skills' },
