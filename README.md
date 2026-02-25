@@ -1,5 +1,15 @@
 <p align="center">
-  <img src="assets/logo.png" alt="Jam Session Plugin" width="280" />
+  <a href="README.md">English</a> | <a href="README.ja.md">日本語</a> | <a href="README.zh.md">中文</a> | <a href="README.es.md">Español</a> | <a href="README.fr.md">Français</a> | <a href="README.hi.md">हिन्दी</a> | <a href="README.it.md">Italiano</a> | <a href="README.pt-BR.md">Português (BR)</a>
+</p>
+
+<p align="center">
+  <img src="assets/logo.png" alt="Jam Session Plugin" width="400" />
+</p>
+
+<p align="center">
+  <a href="https://github.com/mcp-tool-shop-org/jam-session-plugin/actions/workflows/ci.yml"><img src="https://github.com/mcp-tool-shop-org/jam-session-plugin/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-green" alt="License"></a>
+  <a href="https://mcp-tool-shop-org.github.io/jam-session-plugin/"><img src="https://img.shields.io/badge/Landing_Page-live-blue" alt="Landing Page"></a>
 </p>
 
 AI piano player with a 100-song library, structured teaching, and jam sessions. Plays through your speakers — no external software required.
