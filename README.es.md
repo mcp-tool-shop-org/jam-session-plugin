@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="assets/logo.png" alt="Jam Session Plugin" width="400" />
+  <img src="https://raw.githubusercontent.com/mcp-tool-shop-org/brand/main/logos/jam-session-plugin/readme.png" alt="Jam Session Plugin" width="400" />
 </p>
 
 <p align="center">
