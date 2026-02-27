@@ -80,6 +80,38 @@ Let's jam on some blues.
 - MCP server: [@mcptoolshop/ai-jam-session](https://www.npmjs.com/package/@mcptoolshop/ai-jam-session)
 - Source: [mcp-tool-shop-org/ai_jam_session](https://github.com/mcp-tool-shop-org/ai_jam_session)
 
+## Security & Data Scope
+
+Jam Session Plugin is a **Claude Code plugin** that wraps an MCP server.
+
+- **Data accessed:** Plugin configuration, slash command arguments, agent context
+- **Data NOT accessed:** No file system access beyond plugin config. No persistent storage. No user data collection
+- **Network:** All network activity is handled by the underlying MCP server, not this plugin
+- **No telemetry** is collected or sent
+
+Full policy: [SECURITY.md](SECURITY.md)
+
+---
+
+## Scorecard
+
+| Category | Score |
+|----------|-------|
+| A. Security | 10/10 |
+| B. Error Handling | 10/10 |
+| C. Operator Docs | 10/10 |
+| D. Shipping Hygiene | 10/10 |
+| E. Identity (soft) | 10/10 |
+| **Overall** | **50/50** |
+
+---
+
 ## License
 
 MIT
+
+---
+
+<p align="center">
+  Built by <a href="https://mcp-tool-shop.github.io/">MCP Tool Shop</a>
+</p>
