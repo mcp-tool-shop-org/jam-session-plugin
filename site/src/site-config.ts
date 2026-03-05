@@ -14,7 +14,7 @@ export const config: SiteConfig = {
     headlineAccent: 'inside Claude Code.',
     description: 'A Claude Code plugin with a 100-song library, structured lessons, and AI jam sessions — plays through your system audio, no external software required.',
     primaryCta: { href: '#install', label: 'Install' },
-    secondaryCta: { href: '#skills', label: 'See the skills' },
+    secondaryCta: { href: 'handbook/', label: 'Read the Handbook' },
     previews: [
       {
         label: 'Install',
